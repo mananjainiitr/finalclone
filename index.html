@@ -9,335 +9,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        
         <link rel = "icon" href = "images/favicon.ico"  type = "image/x-icon">
-        <style>
-             @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-           .first{
-                background-image: url("https://channeli.in//static/maintainer_site/background.svg");
-                background-size:cover;
-            background-position: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100vh;
-            flex-wrap: wrap;
-            
-                
-           }
-           .full-page{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            flex-wrap: wrap;
-
-           }
-           #second{
-           background-color: #ffffff;
-            background-size: cover;
-            background-position: center;
-           
-            max-width: 100%;
-          
-            
-           }
-            
-              .columnleft{
-                  margin-top: 8%;
-                font-family: 'Playfair Display';
-                 height: 100%;
-                 
-                 
-                 
-                 
-                 align-items: center;
-                
-        
-               
-               }
-               
-               .para{
-                color: #ffffff;
-               padding-right: 1.2em;
-               font-size: 1.2em;
-               line-height: 2;
-               width:60%;
-               margin-left:10%;  
-               }
-               
-               .l1
-               {
-                 flex : 50%;
-                 height : 60px;
-                 background-color:#293a52;
-                 position:sticky;
-                 position: -webkit-sticky;
-                position: sticky;
-                
-                top: 0;
-                margin-top: 0px;
-                display: inline-flex;
-                
-
-               }
-               .r1
-               {
-                 flex : 50%;
-                 height : 60px;
-                 background-color:#f8d06c;
-                 display:flex;
-                 flex-direction: row;
-                 position: -webkit-sticky;
-                 position: sticky;
-                 top: 0;
-                 justify-content: center;
-                 
-                 
-                
-
-               }
-               .nav-button{
-                flex-grow: 4;
-                height :70px;
-                text-align: center;
-                padding-top: 25px;
-                text-decoration: none;
-                 padding-left :15px;
-                 padding-right: 15px;
-                 font-family: 'Bebas Neue', cursive;
-                 color:black;
-                 font-size: 1.5rem;
-
-               }
-               .container{
-                  display:flex;
-                 flex-direction: row;
-
-                
-                 
-               }
-               /* .columnleft{
-                
-                height:70vh;
-                margin-top:40vh;
-                
-                
-               } */
-               .columnright{
-                
-                height:70vh;
-                margin-top:12%;
-                text-align: left;
-                
-                
-               }
-               /* .container2{
-                display: flex;
-                flex-wrap: wrap;
-                 flex-grow: 2;
-                 max-width: 60%;
-                } */
-               .link{
-                   
-                   font-size: 14px;
-                   margin:20px;
-                   width:250px;
-                   text-align: right;
-                   max-width:60%;
-                   
-      
-               }
-               .link1{
-                flex-grow: 2;
-                
-
-
-               }
-               .link2{
-                flex-grow: 2;
-                
-                
-
-
-               }
-               /* .container3{
-                display: flex;
-                flex-wrap: wrap;
-                 flex-grow: 2;
-                 max-width: 80%;
-                 
-                 
-                } */
-                .allcontainer{
-                    display: flex;
-                flex-wrap:wrap;
-                justify-content: center;
-                margin-left: 80px;
-                margin-right:80px;
-               
-                }
-               
-               .link3{
-                flex-grow: 2;
-
-               }
-               .link4{
-                flex-grow: 2;
-                
-
-               }
-               .third{
-           background-color:#ebebeb;
-                background-size: cover;
-            background-position: center;
-           
-            width: 100vw;
+        <link rel="stylesheet" href="stylehome.css">
        
-            
-           }
-           .container4{
-             
-            display: flex;
-            flex-wrap: wrap;
-            width:80vw;
-            margin-left:10vw;
-            
-
-           }
-           .blogimage{
-            flex-grow: 2;
-            width:450px;
-           }
-           .blogdata{
-            flex-grow: 2;
-            margin-top:5%;
-            width:400px;
-           }
-           .container5{
-            display: flex;
-            flex-wrap: wrap-reverse;
-            
-
-           }
-           .contact{
-            flex-grow: 2;
-
-           }
-           .about{
-            flex-grow: 2;
-
-           }
-           #fourth{
-           background-color: #293a52;
-                background-size: cover;
-            background-position: center;
-           
-            width: 100%;
-            color:#ffffff}
-
-            #project_heading{
-                font-size: 32px;
-    font-family: 'Playfair Display';
-    border-bottom: 0.2em #f8d16c solid;
-    display: inline-block;
-    padding-left: 0.8em;
-    color: #3b3736;
-    padding-right: 0.8em;
-    padding-bottom: 0.3em;
-    margin: 0.5em 0 0.5em 0 !important;
-
-   
-
-
-}
-      #hammburger{
-           display:none;
-      
-    } 
-
-            #newideas{
-             width:37%;
-           }
-           #imgref{
-            margin-left:25%;
-           }
-              
-         @media only screen and (max-width: 756px) {
-         /* For mobile phones: */
-         [class *= allcontainer] {
-         
-          flex-direction: column;
-           margin-left: 0px;
-           margin-right: 0px;
-            } 
-            [class *= link] {
-         
-            width:100%;
-            margin :none;
-            padding: 10px;
-            
-
-           } 
-           .columnright{
-             width:0px;
-             display: none;
-             margin: none;
-           }
-           .columnleft{
-             width:90%;
-             
-           }
-           .first{
-             background-image: none;
-             background-color: #293a52;
-             align-items: start;
-             
-             
-           }
-           .link{
-             width:80%;
-             max-width:80%;
-           }
-          
-           #newideas{
-         
-             width:100%;
-
-           }
-           .para{
-             width:90%;
-             margin-left:5%;
-           }
-           .columnleft{
-             margin-top:0%;
-            
-           }
-           .columnright{
-             display: none;
-             }
-             #hammburger{
-               display:inline-block;
-               
-               
-             }
-             .r1{
-               display:none;
-             }
-             #headref{
-               margin-top: 100px;
-             }
-             #imgref{
-              margin-left:0%;
-             }
-   
-    
-    }
-        
-            
-       
-        </style>
         <script>
           function myfunc()
     {
@@ -353,8 +26,8 @@
         <div class="full-page">
     
         <div id = "topclass" class = l1>
-            <img id="imgref" style = "margin-top:10px;height:50px ; width :50px;  fill: #f8d16c;"src="https://channeli.in//static/maintainer_site/logo.svg#maintainer_logo"img>
-            <button onclick="myfunc()" style="background-size: cover;  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAADNCAMAAABXRsaXAAAAaVBMVEUAAAD////6+vrw8PAfHx8cHBz19fXn5+czMzNSUlLz8/MRERE2NjYiIiJsbGzGxsZ1dXW/v7/W1tZ/f3/Jyck1NTWurq5zc3NoaGgtLS21tbVfX1/j4+M9PT3BwcFaWlpOTk6Hh4eVlZXOBACRAAAD7UlEQVR4nO2d63aqMBBGC2i4KCJgsfTUS33/h+zpsoYkBPWHZNaab/YTfHvVJiGZTN4iRN6oA5Ag1gZFwoPiWeuk2/erNy6s+n2XPLSuc+qcM5DXd62rjDrgTPTHSWu1oQ43Ix/Kb50uqZPNyjL1WTfUsWanGVun1JkCkLrWakEdKQBL5VhzHsgGPmzrijpPII6WNdd52iUzrWvqNMGoDWuOy1A/+WCdUGcJSKKtO+ooAem09ZY6SkD22hplBP+l19Z8NhEes7pZK+okQSn+rJGG8Osgjve3VtD/19GaOkpA3rV1Sx0lIK22/qSOEpBPbY00nBXDN9c/6izBOBlfmjvqMMGozL2UA3WaQBysHST+m+FXGnuPFGPyap2d4RjhN76OHeuooI4UAH2QPZxzpexX41/R2DpSvH/kB6Nawzq1/6ZONiPfcTRhHTVcN8bzxvJ061KaPXXAGdg0jqWn8qq65Fm54EGZ5ZfjWHGyyi7mwJSc1BbiINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ4T1tQlUy/jWeukbvOSuhrwZZR5W6cPrXcn6pwzcKruWu+4Fkuvd9PWnDsNbCesU96tkPydvr4Qb0BAdvqK36kjBSBzbzZxvAIwZmNbo1xP3VnWXOdpl7VpfaROEwyz0xfkrXOkNjFDpy/MbhKc198uW22NsEK5kWlr9itwA9BOX7fuT0hDuHT6ok4SEMxOXxn4fI25NkMaxId1OOY3F+j3NeZeCui+GcjktXd2hmOElcpoPxzz7APgnGvl7fSV8qlQ8FF6zzQj3s0Lp86vI8a1Coc7tQq/3hwXp6edY+mrQfo+9dQ5X0Z/auvHrw3+QV0m9jL8elJbiINY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4TFlTV0y9iKet4+Pl3JdLHpT9+VKP3UcVlRvqasAZ+LhfUdmcqQPOxHn6ndyYc6V0O/EmcsH76sc68Vl/UceaHc8NCIS7mqN37TFvNnEeyAa2tnVDnScQjWXN9ZaLy8G0rqjTBKMyrDle7PFj3DpHaphSaGvMbhIY09aVVlsjrFBuSKcvIKTTFw4F9P91lFFHCUivrTGapVwZOn111FEC0mlrpEHc6PTF8ZEPP7nxpVlThwmG1ekLpeduZu0goXT6quw9Uo6HemOc1xAixbsJ0pWFcqxRO33x3xIfTnNxOn0tJjp9Kc5D2kZFfuv/ExjXeTuzX2Nz61JqjovTvHYsPZ2+um3GZ5thlW27pzt9qYQHyq8ntYU4YFr/ACZxfL6iNSmvAAAAAElFTkSuQmCC'); margin-left: 220px; width:30px ;height:30px ; margin-top: 12px;"id = "hammburger"></button> 
+            <img id="imgref" style = "margin-top:10px;height:45px ; width :50px;  fill: #f8d16c;"src="images/imglogo1.png"img>
+            <button onclick="myfunc()" style="margin-left:70vw; background-size: cover;  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAADNCAMAAABXRsaXAAAAaVBMVEUAAAD////6+vrw8PAfHx8cHBz19fXn5+czMzNSUlLz8/MRERE2NjYiIiJsbGzGxsZ1dXW/v7/W1tZ/f3/Jyck1NTWurq5zc3NoaGgtLS21tbVfX1/j4+M9PT3BwcFaWlpOTk6Hh4eVlZXOBACRAAAD7UlEQVR4nO2d63aqMBBGC2i4KCJgsfTUS33/h+zpsoYkBPWHZNaab/YTfHvVJiGZTN4iRN6oA5Ag1gZFwoPiWeuk2/erNy6s+n2XPLSuc+qcM5DXd62rjDrgTPTHSWu1oQ43Ix/Kb50uqZPNyjL1WTfUsWanGVun1JkCkLrWakEdKQBL5VhzHsgGPmzrijpPII6WNdd52iUzrWvqNMGoDWuOy1A/+WCdUGcJSKKtO+ooAem09ZY6SkD22hplBP+l19Z8NhEes7pZK+okQSn+rJGG8Osgjve3VtD/19GaOkpA3rV1Sx0lIK22/qSOEpBPbY00nBXDN9c/6izBOBlfmjvqMMGozL2UA3WaQBysHST+m+FXGnuPFGPyap2d4RjhN76OHeuooI4UAH2QPZxzpexX41/R2DpSvH/kB6Nawzq1/6ZONiPfcTRhHTVcN8bzxvJ061KaPXXAGdg0jqWn8qq65Fm54EGZ5ZfjWHGyyi7mwJSc1BbiINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ4T1tQlUy/jWeukbvOSuhrwZZR5W6cPrXcn6pwzcKruWu+4Fkuvd9PWnDsNbCesU96tkPydvr4Qb0BAdvqK36kjBSBzbzZxvAIwZmNbo1xP3VnWXOdpl7VpfaROEwyz0xfkrXOkNjFDpy/MbhKc198uW22NsEK5kWlr9itwA9BOX7fuT0hDuHT6ok4SEMxOXxn4fI25NkMaxId1OOY3F+j3NeZeCui+GcjktXd2hmOElcpoPxzz7APgnGvl7fSV8qlQ8FF6zzQj3s0Lp86vI8a1Coc7tQq/3hwXp6edY+mrQfo+9dQ5X0Z/auvHrw3+QV0m9jL8elJbiINY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4TFlTV0y9iKet4+Pl3JdLHpT9+VKP3UcVlRvqasAZ+LhfUdmcqQPOxHn6ndyYc6V0O/EmcsH76sc68Vl/UceaHc8NCIS7mqN37TFvNnEeyAa2tnVDnScQjWXN9ZaLy8G0rqjTBKMyrDle7PFj3DpHaphSaGvMbhIY09aVVlsjrFBuSKcvIKTTFw4F9P91lFFHCUivrTGapVwZOn111FEC0mlrpEHc6PTF8ZEPP7nxpVlThwmG1ekLpeduZu0goXT6quw9Uo6HemOc1xAixbsJ0pWFcqxRO33x3xIfTnNxOn0tJjp9Kc5D2kZFfuv/ExjXeTuzX2Nz61JqjovTvHYsPZ2+um3GZ5thlW27pzt9qYQHyq8ntYU4YFr/ACZxfL6iNSmvAAAAAElFTkSuQmCC'); width:30px ;height:30px ; margin-top: 12px;"id = "hammburger"></button> 
 
           </div>
     
@@ -364,14 +37,14 @@
             <a class = "nav-button" href = "#"><b>PROJECTS</b></a>
             <a class = "nav-button" href = "#"><b>TEAMS</b></a>
             <a class = "nav-button" href = "#"><b>ALUMINI</b></a>
-         
+          
           </div>
         <div class = "first">
          <div class="container">
         <div class = "columnleft"> 
           
-          <h1 id = "headref"style = " margin-left:5vw;  font-size :4.3em ; color : #f8d06c;  width:48%;  background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );">Playing with</h1>
-          <h1 id= "newideas" style = " margin-left:5vw;  font-size : 4.3em; color : #f8d06c;  background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );">new ideas</h1>
+          <h1 id = "headref"style = " margin-left:3vw;  font-size :4.3em ; color : #f8d06c;  width:50%;  background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );">Playing with</h1>
+          <h1 id= "newideas" style = " margin-left:3vw;  font-size : 4.3em; color : #f8d06c;  background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );">new ideas</h1>
           <p class= "para ">The group flaunts a wide spectrum of projects, influencing over eight thousand lives on campus.</p>
         </div>
         <div class = "columnright" >
@@ -401,7 +74,7 @@
            
           <!-- </div> -->
         </div>
-          <div class="viewmore"> <button style=" cursor:pointer;    font-family: 'TypoPRO Bebas Neue'; font-size: 20px; color: #263146;border: 2px solid #263146;padding: 0.5em 1em; background-color:#ffffff;">View More</button>
+          <div class="viewdiv"> <button class="viewmore" style=" cursor:pointer;    font-family: 'TypoPRO Bebas Neue'; font-size: 20px; color: #263146;border: 2px solid #263146;padding: 0.5em 1em; ">View More</button>
 
          </div>
          <br><br>
@@ -417,7 +90,7 @@
             <p>Ken the ins and outs of life and moil at IMG.<br>Find answers to all your whats, whys and hows.</p>
         </div>
         </div>
-        <div class="viewmore"> <button style="padding :12px; background-color:#ffffff;">Read</button>
+        <div class="readdiv"> <button class="readmore" style=" cursor:pointer;    font-family: 'TypoPRO Bebas Neue'; font-size: 20px; color: #263146;border: 2px solid #263146;padding: 0.5em 1em; ">Read</button>
 
         </div>
         <br><br>
@@ -425,16 +98,16 @@
     <div id = "fourth">
         <br><br>
         <div class = "container5">
-        <div style ="text-align: left;margin-left: 10%; width:300px ; padding-right:100px" class = contact>
+        <div style ="text-align: left; width:300px ; padding-right:100px" class = contact>
         <h1 style = "font-family: 'Bebas Neue', cursive; font-size: 1.5rem;">Contact Us</h1>
         
         <p style = " font-size: 14px;">1st floor ICC,IIT Roorkee <br> Roorkee,<br>Uttrakhand,India - 247667 <br><div><img style = "width :20px ; height : 20px;"src="https://icon-library.com/images/find-phone-icon/find-phone-icon-10.jpg"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">01332-284-521</div></div><br><div><img style = "width :20px ; height : 20px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWZheh0OhKiGoD95A--9pVkxl9IYS30hgS30iskyoyzJuoszj6GCHC1mSOyeCVNqX7T4&usqp=CAU"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">img@iitr.ac.in </div></div><br> <img style="width : 100px ;height :35px;"src="images/icon2.png"img></p>
 
 
         </div>
-        <div style= "width :350px;margin-left: 10% ; margin-right: 10%; text-align: left;"class = about>
+        <div style= "width :350px; margin-right: 10%; text-align: left;"class = about>
             <h1 style = " font-size: 1.5rem; font-family: 'Bebas Neue', cursive;" >About</h1>
-            <p style = " font-family: 'Bebas Neue', cursive;font-size: 14px;     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;">As the institute evolves, so does IMG. We are a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee, making their digital stay as seamless as possible. We survive on action and results, getting it done faster, better and more efficiently, with one goal in mind: Simplifying the business of college life.</p>
+            <p style = " font-family: 'Bebas Neue', cursive;font-size: 14px;       line-height: 1.7;  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;">As the institute evolves, so does IMG. We are a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee, making their digital stay as seamless as possible. We survive on action and results, getting it done faster, better and more efficiently, with one goal in mind: Simplifying the business of college life.</p>
 
         </div>
        
